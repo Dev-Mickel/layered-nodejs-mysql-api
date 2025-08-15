@@ -7,6 +7,7 @@ const userController = require('../controllers/user.controller');
  * /users:
  *   get:
  *     summary: Retrieve a list of users
+ *     tags: [Users]
  *     responses:
  *       200:
  *         description: A list of users.
@@ -18,6 +19,7 @@ router.get('/users', userController.getAllUsers);
  * /users:
  *   post:
  *     summary: Create a new user
+ *     tags: [Users]
  *     responses:
  *       201:
  *         description: User created successfully.
