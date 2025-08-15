@@ -1,0 +1,19 @@
+{
+  "name": "layered-nodejs-mysql-api",
+  "version": "1.0.0",
+  "description": "A layered Node.js API with MySQL integration and Swagger documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
